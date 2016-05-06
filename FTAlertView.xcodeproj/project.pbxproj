@@ -14,6 +14,7 @@
 		C340ADEC1CD61A38006BAFA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C340ADEA1CD61A38006BAFA3 /* LaunchScreen.storyboard */; };
 		C340ADF71CD61A38006BAFA3 /* FTAlertViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C340ADF61CD61A38006BAFA3 /* FTAlertViewTests.swift */; };
 		C340AE021CD61A38006BAFA3 /* FTAlertViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C340AE011CD61A38006BAFA3 /* FTAlertViewUITests.swift */; };
+		C340AE101CD61A48006BAFA3 /* FTAlertViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C340AE0F1CD61A48006BAFA3 /* FTAlertViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C340ADFD1CD61A38006BAFA3 /* FTAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FTAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C340AE011CD61A38006BAFA3 /* FTAlertViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTAlertViewUITests.swift; sourceTree = "<group>"; };
 		C340AE031CD61A38006BAFA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C340AE0F1CD61A48006BAFA3 /* FTAlertViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTAlertViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				C340ADE11CD61A38006BAFA3 /* AppDelegate.swift */,
 				C340ADE31CD61A38006BAFA3 /* ViewController.swift */,
+				C340AE0F1CD61A48006BAFA3 /* FTAlertViewModel.swift */,
 				C340ADE51CD61A38006BAFA3 /* Main.storyboard */,
 				C340ADE81CD61A38006BAFA3 /* Assets.xcassets */,
 				C340ADEA1CD61A38006BAFA3 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				C340ADE41CD61A38006BAFA3 /* ViewController.swift in Sources */,
 				C340ADE21CD61A38006BAFA3 /* AppDelegate.swift in Sources */,
+				C340AE101CD61A48006BAFA3 /* FTAlertViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +406,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FTAlertView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.FarTeen.FTAlertView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -413,6 +418,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FTAlertView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.FarTeen.FTAlertView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
